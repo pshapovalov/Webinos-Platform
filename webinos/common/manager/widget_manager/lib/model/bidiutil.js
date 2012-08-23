@@ -72,7 +72,12 @@ this.BidiUtil = (function() {
 	CODE_PDF
   ];
 
-  /* public constructor */
+  /** 
+   * public constructor BidiUtil
+   * @name BidiUtil
+   * @constructor
+   * @param args
+   */
   function BidiUtil(args) {
   }
 
@@ -96,6 +101,12 @@ this.BidiUtil = (function() {
   });
 
   /* public static functions */
+  /**
+   * get Directional Code
+   * @name BidiUtil#getDirectionalCode
+   * @function
+   * @param dir
+   */
   BidiUtil.getDirectionalCode = function(dir) {
 	if(dir > CODE_PDF) throw new Error("BidiUtil.getDirectionalCode(): Invalid direction");
 	  return directionalCodes[dir];
