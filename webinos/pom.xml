@@ -119,10 +119,6 @@
                     <argument>--junitreport</argument>
                     <argument>test/jasmine</argument>
                   </arguments>
-                  <successCodes>
-                    <param>0</param>
-                    <param>1</param>
-                  </successCodes>
                 </configuration>
                </execution>
                <!-- Create documentation from the jsdoc comments. Documentation will placed to folder 'jsdoc'. -->
@@ -154,10 +150,6 @@
                     <argument>--xunit</argument>
                   </arguments>
                   <outputFile>${basedir}/reports/TEST-vows.xml</outputFile>
-                  <successCodes>
-                    <param>0</param>
-                    <param>1</param>
-                  </successCodes>
                 </configuration>
                </execution>
               </executions>
@@ -235,10 +227,6 @@
                       <argument>--junitreport</argument>
                       <argument>test/jasmine</argument>
                     </arguments>
-                    <successCodes>
-                      <param>0</param>
-                      <param>1</param>
-                    </successCodes>
                   </configuration>
                 </execution>
                 <!-- Create documentation from the jsdoc comments. Documentation will placed to folder 'jsdoc'. -->
@@ -269,11 +257,7 @@
                       <argument>test/vows/test.spec.js</argument>
                       <argument>--xunit</argument>
                     </arguments>
-                    <outputFile>${basedir}/reports/TEST-vows.xml</outputFile>
-                    <successCodes>
-                      <param>0</param>
-                      <param>1</param>
-                    </successCodes>
+                    <outputFile>${basedir}/reports/TEST-vows.xml</outputFile>                    
                   </configuration>
                 </execution>
               </executions>
