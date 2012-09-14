@@ -118,10 +118,12 @@
                     <argument>--junitreport</argument>
                     <argument>test/jasmine</argument>
                   </arguments>
+                  <!--
                   <successCodes>
                     <param>0</param>
                     <param>1</param>
                   </successCodes>
+                  -->
                 </configuration>
                </execution>
                <!-- Create documentation from the jsdoc comments. Documentation will placed to folder 'jsdoc'. -->
@@ -217,10 +219,12 @@
                       <argument>--junitreport</argument>
                       <argument>test/jasmine</argument>
                     </arguments>
+                    <!--
                     <successCodes>
                       <param>0</param>
                       <param>1</param>
                     </successCodes>
+                    -->
                   </configuration>
                 </execution>
                 <!-- Create documentation from the jsdoc comments. Documentation will placed to folder 'jsdoc'. -->
